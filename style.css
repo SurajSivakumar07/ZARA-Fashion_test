@@ -1,0 +1,291 @@
+.nav-bar {
+  height: 4rem;
+  background-color: beige;
+  display: flex;
+  margin-bottom: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-bar img {
+  margin-left: 4rem;
+  padding: 0.5rem;
+}
+
+.nav-items {
+  margin-left: 20%;
+  padding: 1rem;
+  display: flex;
+}
+
+.nav-items button {
+  margin-left: 1rem;
+  background-color: beige;
+  /*margin: 2px solid white; */
+  padding: 0.5rem;
+  border: none;
+}
+
+#in {
+  background-color: black;
+  color: aliceblue;
+  padding: 0.5rem;
+  border: none;
+}
+
+#up {
+  background-color: aliceblue;
+  color: black;
+  padding: 0.5rem;
+}
+
+.sign {
+  margin-left: 7rem;
+  padding: 1rem;
+}
+
+.sign button {
+  margin-left: 1rem;
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+#in:hover {
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid black;
+}
+
+#up:hover {
+  background-color: black;
+  color: aliceblue;
+  border: none;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: gainsboro;
+}
+
+.home img {
+  /* opacity: 0.9; */
+  width: 40%;
+  height: 100%;
+  z-index: 0;
+}
+
+#men {
+  z-index: 1;
+  background-color: white;
+  color: black;
+  border: none;
+  width: 10%;
+  height: 7%;
+  position: absolute;
+  top: 90%;
+  left: 15%;
+  /* padding-top: 10%; */
+}
+
+#women {
+  z-index: 1;
+  background-color: white;
+  color: black;
+  border: none;
+  width: 10%;
+  height: 7%;
+  position: absolute;
+  top: 90%;
+  left: 75%;
+}
+
+#men:hover,
+#women:hover {
+  background-color: black;
+  color: white;
+}
+
+.pos-left,
+.pos-right {
+  position: relative;
+}
+
+.details {
+  width: 20%;
+}
+
+.details h1 {
+  text-align: center;
+  background-color: teal;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 100%;
+}
+
+.mens {
+  height: 100vh;
+}
+.mens img {
+  width: 20%;
+  height: 50%;
+  margin-left: 4%;
+  position: relative;
+}
+
+.mens button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  position: absolute;
+  top: 200%;
+  left: 40%;
+}
+
+.mens button:hover {
+  background-color: black;
+  color: white;
+}
+
+.mens p {
+  background-color: skyblue;
+  padding: 10px;
+  text-align: center;
+  width: 40%;
+  margin-left: 30%;
+}
+.womens {
+  height: 100vh;
+}
+.womens img {
+  width: 20%;
+  height: 50%;
+  margin-left: 4%;
+  position: relative;
+}
+
+.womens button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  position: absolute;
+  top: 305%;
+  left: 40%;
+}
+
+.womens button:hover {
+  background-color: black;
+  color: white;
+}
+
+.womens p {
+  background-color: skyblue;
+  padding: 10px;
+  text-align: center;
+  width: 40%;
+  margin-left: 30%;
+}
+.shoe {
+  height: 100vh;
+}
+.shoe img {
+  width: 20%;
+  height: 50%;
+  margin-left: 4%;
+  position: relative;
+}
+
+.shoe button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  position: absolute;
+  top: 415%;
+  left: 40%;
+}
+
+.shoe button:hover {
+  background-color: black;
+  color: white;
+}
+
+.shoe p {
+  background-color: skyblue;
+  padding: 10px;
+  text-align: center;
+  width: 40%;
+  margin-left: 30%;
+}
+
+.contact {
+  height: 100vh;
+  width: 100%;
+}
+
+.details {
+  display: flex;
+  width: 100%;
+}
+
+.address {
+  margin-right: 10%;
+  width: 30%;
+  margin-left: 5%;
+  /* background-color: azure; */
+  padding: 1%;
+  height: 10%;
+}
+
+.phone {
+  margin-right: 10%;
+  /* background-color: azure; */
+  padding: 1%;
+}
+
+.mail {
+  /* background-color: azure; */
+  padding: 1%;
+}
+
+.contact h3 {
+  color: darkslategray;
+}
+
+.order {
+  align-content: center;
+}
+
+table tr {
+  border: none;
+}
+
+table {
+  margin-left: 30%;
+  font-size: larger;
+  background-color: beige;
+  padding: 1%;
+  /* width: 100%; */
+}
+
+#sub {
+  background-color: white;
+  padding: 1%;
+  transform: translate(35rem, 16rem);
+}
+
+#sub:hover {
+  background-color: black;
+  color: white;
+}
+
+.mens,
+.womens,
+.shoe,
+.contact {
+  padding-top: 50px;
+}

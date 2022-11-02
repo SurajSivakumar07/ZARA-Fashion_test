@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZARA Fashion's</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-bar">
+        <img
+          src="./logo1.png"
+          alt="skcetlogo"
+          srcset=""
+          width="8%"
+          height="50px"
+        />
+        <div class="nav-items">
+          <button class="men-direct">Men Clothing</button>
+          <button class="women-direct">Women Clothing</button>
+          <button class="shoe-direct">Unisex Shoes</button>
+          <button class="con-direct">Contact</button>
+        </div>
+        <div class="sign">
+          <button id="in">Sign In</button>
+          <button id="up">Sign Up</button>
+        </div>
+      </div>
+      <div class="home">
+        <img src="./model2.jpg" alt="" srcset="" class="pos-left" />
+        <button id="men" class="men-direct">SHOP MEN's</button>
+        <div class="details">
+          <center>
+            <h1>NEW ARRIVALS</h1>
+          </center>
+        </div>
+        <img src="./model1.png" alt="" srcset="" class="pos-right" id="right" />
+        <button id="women" class="women-direct">SHOP WOMEN's</button>
+      </div>
+      <div class="mens">
+        <center><h1>MEN's CLOTHING</h1></center>
+        <img src="./mens3.jpg" alt="" />
+        <img src="./mens2.webp" alt="" srcset="" />
+        <img src="./mens1.jpg" alt="" />
+        <img src="./mens4.jpg" alt="" />
+        <p>Men's Sweatshirt,Hoodies,Joggers,Cargo Pants under Rs.2000</p>
+        <button class="men-contact-direct">CONTACT US TO ORDER</button>
+      </div>
+      <div class="womens">
+        <center><h1>WOMEN's CLOTHING</h1></center>
+        <img src="./women1.jpg" alt="" />
+        <img src="./women2.jpg" alt="" srcset="" />
+        <img src="./women3.jpg" alt="" />
+        <img src="./women4.webp" alt="" />
+        <p>Women's LongSuit,Jackets,Jumpsuit,Flared Jeans under Rs.2000</p>
+        <button class="women-contact-direct">CONTACT US TO ORDER</button>
+      </div>
+      <div class="shoe">
+        <center><h1>UNISEX SHOES</h1></center>
+        <img src="./shoe1.jpg" alt="" />
+        <img src="./shoe2.jpg" alt="" srcset="" />
+        <img src="./shoe3.jpg" alt="" />
+        <img src="./shoe4.jpg" alt="" />
+        <p>Unisex Casual and Formal Shoes under Rs.5000</p>
+        <button class="shoe-contact-direct">CONTACT US TO ORDER</button>
+      </div>
+      <div class="contact">
+        <center><h1>GET IN TOUCH!</h1></center>
+        <div class="details">
+          <div class="address">
+            <h3>Showroom</h3>
+            <p>
+              No.382, DB Road Old, Opposite To Reliance Footprint, R.S. Puram,
+              Rs Puram, Coimbatore
+            </p>
+          </div>
+          <div class="phone">
+            <h3>Phone</h3>
+            <p>+91 8946008461</p>
+          </div>
+          <div class="mail">
+            <h3>Email</h3>
+            <p>jayashyam2020@gmail.com</p>
+          </div>
+        </div>
+        <div class="order">
+          <table>
+            <form>
+              <tr>
+                <td>
+                  <label for="fullname">Enter your FullName:</label>
+                </td>
+                <td>
+                  <input type="text" name="fullname" id="fullname" />
+                </td>
+              </tr>
+              <!-- <br /><br /> -->
+              <tr>
+                <td>
+                  <label for="address">Enter your Adreess:</label>
+                </td>
+                <td>
+                  <input type="text" name="address" id="address" />
+                </td>
+              </tr>
+              <!-- <br></br> -->
+              <tr>
+                <td>
+                  <label for="phone">Enter your Phone Number:</label>
+                </td>
+                <td>
+                  <input type="number" name="phone" id="phone " />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="order">Enter your Orders:</label>
+                </td>
+                <td>
+                  <input type="text" name="order" id="order" />
+                </td>
+              </tr>
+              <tr>
+                <td>Choose your Payment Method:</td>
+                <td>
+                  <input
+                    type="radio"
+                    id="cod"
+                    name="payment"
+                    value="Cash on Delivery"
+                  />
+                   
+                  <label for="cod">Cash on Delivery</label>
+                   
+                  <input type="radio" id="UPI" name="payment" value="UPI" />
+                   
+                  <label for="UPI">UPI</label>
+                   
+                  <input
+                    type="radio"
+                    id="net"
+                    name="payment"
+                    value="NET BANKING"
+                  />
+                   
+                  <label for="NET BANKING">Net Banking</label>
+                </td>
+              </tr>
+              
+                  <button type="submit" id="sub">CONFIRM YOUR ORDER</button>
+                  <!-- </center> -->
+               
+              </tr>
+            </form>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
